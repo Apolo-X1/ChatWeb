@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+}
+
+.wrapper{
+    position: relative;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    border: 1px solid #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+}
+
+#fs {
+    position: relative;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(15px);
+    border: 1px solid #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+}
+
+.sb .bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+header {
+    font-size: 30px;
+    padding: 10px;
+}
+
+header,
+.link,
+#sb {
+    text-align: center;
+}
+
+.link {
+    padding: 10px;
+}
+
+#fi,
+.field-image {
+    display: grid;
+    place-items: center;
+}
+
+#fip {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+#fip i{
+    position: absolute;
+    left: 435px;
+    top: 302px;
+}
+
+#fi #ph1,
+#fi #ph2,
+#fi #ph3,
+#fip #ph4 {
+    width: 50%;
+    height: 30px;
+    border-radius: 3px;
+    background: #fff;
+    border: none;
+}
+
+#fi #ph1::placeholder,
+#fi #ph2::placeholder,
+#fi #ph3::placeholder,
+#fip #ph4::placeholder {
+    color: #8f2c24;
+}
+
+/* field image */
+.field-image .drop-container {
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    border-radius: 6px;
+    border: 2px solid #8f2c24;
+    color: #444;
+    cursor: pointer;
+    transition: background .2s ease-in-out, border .2s ease-in-out;
+}
+
+.field-image .drop-container:hover {
+    background: none;
+}
+
+.field-image .drop-container:hover .drop-title {
+    color: #222;
+}
+
+.field-image .drop-title {
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: color .2s ease-in-out;
+}
+
+.field-image input[type=file] {
+    width: 350px;
+    max-width: 100%;
+    color: #444;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #555;
+}
+
+.field-image input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #8f2c24;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+}
+
+.field-image input[type=file]::file-selector-button:hover {
+    background: #ff6600d5;
+}
+
+#sb input{
+    cursor: pointer;
+    text-align: center;
+    top: 19px;
+    position: relative;
+    width: 40%;
+    padding: 15px 20px;
+    outline: none;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 5px;
+    background: #8f2c24;
+    border: none;
+    margin-bottom: 30px;
+}
+
+/* leaves effect */
+.leaves {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.leaves .set {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.leaves .set div {
+    position: absolute;
+    display: block;
+}
+
+.leaves .set div:nth-child(1) {
+    left: 20%;
+    animation: animate 20s linear infinite;
+}
+
+.leaves .set div:nth-child(2) {
+    left: 50%;
+    animation: animate 14s linear infinite;
+}
+
+.leaves .set div:nth-child(3) {
+    left: 70%;
+    animation: animate 12s linear infinite;
+}
+
+.leaves .set div:nth-child(4) {
+    left: 5%;
+    animation: animate 15s linear infinite;
+}
+
+.leaves .set div:nth-child(5) {
+    left: 85%;
+    animation: animate 18s linear infinite;
+}
+
+.leaves .set div:nth-child(6) {
+    left: 90%;
+    animation: animate 12s linear infinite;
+}
+
+.leaves .set div:nth-child(7) {
+    left: 15%;
+    animation: animate 14s linear infinite;
+}
+
+.leaves .set div:nth-child(8) {
+    left: 60%;
+    animation: animate 15s linear infinite;
+}
+
+@keyframes animate {
+
+    0% {
+        opacity: 0;
+        top: -10%;
+        transform: translateX(20px) rotate(0deg);
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    20% {
+        transform: translateX(-20px) rotate(45deg);
+    }
+
+    40% {
+        transform: translateX(-20px) rotate(90deg);
+    }
+
+    60% {
+        transform: translateX(20px) rotate(180deg);
+    }
+
+    80% {
+        transform: translateX(-20px) rotate(45deg);
+    }
+
+    100% {
+        top: 110%;
+        transform: translateX(20px) rotate(225deg);
+    }
+}
