@@ -1,4 +1,11 @@
-# Chat Documentation
+### Screenshots
+<p align="center">
+  <img src="/path/to/screenshot1.png" alt="Chat Screenshot 1">
+</p>
+
+<p align="center">
+  <img src="/path/to/screenshot2.png" alt="Chat Screenshot 2">
+</p>
 
 ## Introduction
 Web application to chat with your friends, inspired in https://youtu.be/VnvzxGWiK54
@@ -46,14 +53,4 @@ chat/
 
 ## Installation and Execution
 - run the sql code in xampp or other environment
-- go to the browser and type "localhost/chat/index.php"
-- 
-
-### Screenshots
-<p align="center">
-  <img src="/path/to/screenshot1.png" alt="Chat Screenshot 1">
-</p>
-
-<p align="center">
-  <img src="/path/to/screenshot2.png" alt="Chat Screenshot 2">
-</p>
+- go to the browser and type "localhost/Chat-Web/index.php"
