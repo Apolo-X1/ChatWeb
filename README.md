@@ -1,9 +1,7 @@
 <div align="center">
   <img src="./gif/o.gif" alt="Ejemplo de gif">
 </div>
-
-<div style="margin-top: 20px;"></div>
-
+hola
 <div align="center">
   <img src="./gif/u.gif" alt="Ejemplo de gif">
 </div>
