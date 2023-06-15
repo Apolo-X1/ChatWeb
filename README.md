@@ -1,9 +1,13 @@
-<p align="center">
+<div align="center">
   <img src="./gif/o.gif" alt="Ejemplo de gif">
-  ㅤ
-  ㅤ
+</div>
+
+<div style="margin-top: 20px;"></div>
+
+<div align="center">
   <img src="./gif/u.gif" alt="Ejemplo de gif">
-</p>
+</div>
+
 
 
 ## Introduction
