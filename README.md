@@ -1,10 +1,10 @@
 ### Screenshots
-![Ejemplo de gif](./gif/o.gif)
-
 
 <p align="center">
-  <img src="/path/to/screenshot2.png" alt="Chat Screenshot 2">
+  <img src="./gif/o.gif" alt="Ejemplo de gif">
+  <img src="./gif/u.gif" alt="Ejemplo de gif">
 </p>
+
 
 ## Introduction
 Web application to chat with your friends, inspired in https://youtu.be/VnvzxGWiK54
