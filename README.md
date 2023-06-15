@@ -1,5 +1,3 @@
-### Screenshots
-
 <p align="center">
   <img src="./gif/o.gif" alt="Ejemplo de gif">
   <img src="./gif/u.gif" alt="Ejemplo de gif">
