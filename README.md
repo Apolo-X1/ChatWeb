@@ -1,7 +1,6 @@
 ### Screenshots
-<p align="center">
-  ![Ejemplo de gif](./gif/o.gif)
-</p>
+![Ejemplo de gif](./gif/o.gif)
+
 
 <p align="center">
   <img src="/path/to/screenshot2.png" alt="Chat Screenshot 2">
