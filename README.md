@@ -2,8 +2,6 @@
   <img src="./gif/o.gif" alt="Ejemplo de gif">
 </div>
 ㅤ
-ㅤ
-ㅤ
 <div align="center">
   <img src="./gif/u.gif" alt="Ejemplo de gif">
 </div>
