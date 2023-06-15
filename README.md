@@ -1,5 +1,7 @@
 <p align="center">
   <img src="./gif/o.gif" alt="Ejemplo de gif">
+  ㅤ
+  ㅤ
   <img src="./gif/u.gif" alt="Ejemplo de gif">
 </p>
 
