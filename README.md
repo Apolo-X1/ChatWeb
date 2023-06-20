@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="./gif/o.gif" alt="Ejemplo de gif">
+  <img src="./gif/o.gif" alt="">
 </div>
 ㅤ
 <div align="center">
-  <img src="./gif/u.gif" alt="Ejemplo de gif">
+  <img src="./gif/u.gif" alt="">
 </div>
 
 
